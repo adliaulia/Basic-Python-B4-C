@@ -15,8 +15,8 @@ def daftar_kontak():
         print("No. Telepon: {}".format(item["telepon"]))
 
 def tambah_kontak():
-    nama = input("Nama: ")
-    telepon = input("No. Telepon: ")
+    nama = str(input("Nama: "))
+    telepon = int(input("No. Telepon: "))
     list_kontak.append({'nama':nama,'telepon':telepon})
     print("Kontak berhasil ditambahkan")
 
@@ -26,12 +26,12 @@ def keluar():
 
 while True:
     menu()
-    input_menu = input("Pilih menu: ")
-    if input_menu == "1":
+    input_menu = int(input("Pilih menu: "))
+    if input_menu == 1:
         daftar_kontak()
-    elif input_menu == "2":
+    elif input_menu == 2:
         tambah_kontak()
-    elif input_menu == "3":
+    elif input_menu == 3:
         keluar()
     else:
         print("Menu tidak tersedia")
