@@ -38,3 +38,11 @@ s = smtplib.SMTP_SSL(host = 'smtp.gmail.com', port = 465)
 s.login(user = sender, password = 'passwordgmailpengirim')
 s.sendmail(sender, receivers, msg.as_string())
 s.quit()
+
+'''
+Referensi
+https://www.youtube.com/watch?v=iICg4Vn2Rkk
+https://nitratine.net/blog/post/how-to-send-an-email-with-python/
+https://github.com/python/cpython/blob/3.9/Lib/smtplib.py
+https://www.geeksforgeeks.org/python-gui-tkinter/#:~:text=Python%20offers%20multiple%20options%20for,to%20create%20the%20GUI%20applications.
+'''

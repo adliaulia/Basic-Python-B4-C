@@ -78,3 +78,11 @@ b1.grid(row=4, column=0, pady=10)
 b2 = Button(ui, text='Exit', width=10, command=keluar, bg='white') 
 b2.grid(row=5, column=0, pady=10)
 ui.mainloop()
+
+'''
+Referensi
+https://www.youtube.com/watch?v=iICg4Vn2Rkk
+https://nitratine.net/blog/post/how-to-send-an-email-with-python/
+https://github.com/python/cpython/blob/3.9/Lib/smtplib.py
+https://www.geeksforgeeks.org/python-gui-tkinter/#:~:text=Python%20offers%20multiple%20options%20for,to%20create%20the%20GUI%20applications.
+'''
