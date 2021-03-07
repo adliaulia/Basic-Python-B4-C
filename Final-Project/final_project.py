@@ -68,7 +68,7 @@ e2.grid(row=1, column=1, pady=5)
 e3 = Entry(ui, width=40) 
 e3.grid(row=2, column=1, pady=5) 
 
-l3 = Label(ui, text="Your Message :").grid(row=3)
+l4 = Label(ui, text="Your Message :").grid(row=3)
 T = Text(ui, height=10, width=30) 
 T.insert(END,"") 
 T.grid(row=3, column=1, pady=5)
